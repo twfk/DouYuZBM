@@ -13,7 +13,6 @@
 		A919F01F1F4145A60079CAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A919F01D1F4145A60079CAFB /* LaunchScreen.storyboard */; };
 		A919F02A1F4145A60079CAFB /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919F0291F4145A60079CAFB /* DYZBTests.swift */; };
 		A919F0351F4145A60079CAFB /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A919F0341F4145A60079CAFB /* DYZBUITests.swift */; };
-		A919F0431F414DAA0079CAFB /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = A919F0421F414DAA0079CAFB /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		A919F0301F4145A60079CAFB /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A919F0341F4145A60079CAFB /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		A919F0361F4145A60079CAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A919F0421F414DAA0079CAFB /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +95,8 @@
 		A919F0131F4145A60079CAFB /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
-				A919F0421F414DAA0079CAFB /* Classes */,
+				A97DC5691F416A9D00B97E86 /* Classes */,
 				A919F0141F4145A60079CAFB /* AppDelegate.swift */,
-				A919F0181F4145A60079CAFB /* Main.storyboard */,
 				A919F01B1F4145A60079CAFB /* Assets.xcassets */,
 				A919F01D1F4145A60079CAFB /* LaunchScreen.storyboard */,
 				A919F0201F4145A60079CAFB /* Info.plist */,
@@ -123,6 +120,54 @@
 				A919F0361F4145A60079CAFB /* Info.plist */,
 			);
 			path = DYZBUITests;
+			sourceTree = "<group>";
+		};
+		A97DC5691F416A9D00B97E86 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A97DC56A1F416A9D00B97E86 /* Follow */,
+				A97DC56B1F416A9D00B97E86 /* Home */,
+				A97DC56C1F416A9D00B97E86 /* Main */,
+				A97DC56D1F416A9D00B97E86 /* Profile */,
+				A97DC56E1F416A9D00B97E86 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A97DC56A1F416A9D00B97E86 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		A97DC56B1F416A9D00B97E86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A97DC56C1F416A9D00B97E86 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A919F0181F4145A60079CAFB /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A97DC56D1F416A9D00B97E86 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A97DC56E1F416A9D00B97E86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A919F01F1F4145A60079CAFB /* LaunchScreen.storyboard in Resources */,
-				A919F0431F414DAA0079CAFB /* Classes in Resources */,
 				A919F01C1F4145A60079CAFB /* Assets.xcassets in Resources */,
 				A919F01A1F4145A60079CAFB /* Main.storyboard in Resources */,
 			);
@@ -302,6 +346,7 @@
 				A919F0191F4145A60079CAFB /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A919F01D1F4145A60079CAFB /* LaunchScreen.storyboard */ = {
@@ -509,6 +554,7 @@
 				A919F03B1F4145A60079CAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A919F03C1F4145A60079CAFB /* Build configuration list for PBXNativeTarget "DYZBTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +563,7 @@
 				A919F03E1F4145A60079CAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A919F03F1F4145A60079CAFB /* Build configuration list for PBXNativeTarget "DYZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +572,7 @@
 				A919F0411F4145A60079CAFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
